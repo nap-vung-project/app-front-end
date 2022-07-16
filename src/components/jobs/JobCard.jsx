@@ -4,34 +4,47 @@ import {GrLocation} from 'react-icons/gr';
 import '../../asset/scss/JobsStyle.scss'
 // import {Link} from 'react-router-dom';
 
-export default function JobCard(props) {
+
+import ApplyButton from "../button/ApplyButton";
+export default function JobCard(props)
+{
     return(
         <div className="job-card">
             <div className="job-card-left">
                 <div className="job-card-location">
-                    <GrLocation value={{color: 'red', size: '15px'}}/>
+                    <GrLocation className="job-card-location-icon"/>
                     <span>Da Nang</span>
                 </div>
                 <div className="job-card-title">Software Engineer</div>
-                <div className="job-card-salary">
-                    <span>Salary</span>
-                    <span>$1500</span>
+
+                <div className="job-card-table">
+                    <table>
+                        <tbody>
+                            <tr className="job-card-salary">
+                                <td>Salary</td>
+                                <td>$1500</td>
+                            </tr>
+                            <tr className="job-card-position-type">
+                                <td>Position type</td>
+                                <td>Full time</td>
+                            </tr>
+                            <tr className="job-card-company">
+                                <td>Company</td>
+                                <td>O2R2</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <div className="job-card-position-type">
-                    <span>Position type</span>
-                    <span>Full time</span>
-                </div>
-                <div className="job-card-company">
-                    <span>Company</span>
-                    <span>O2R2</span>
-                </div>
-                <button></button>
+                <ApplyButton></ApplyButton>
             </div>
             <div className="job-card-right">
                 <div className="job-card-title-child">Software Engineer</div>
+                <br/>
                 <div className="job-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cupiditate fugit labore numquam veritatis! Ab asperiores aut commodi dicta eius ipsa maxime, numquam, obcaecati quam rem sed velit veritatis!</div>
-                <div className="job-card-description"></div>
-                <div className="job-card-createAt"></div>
+                <br/>
+                <div className="job-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aut cupiditate debitis eligendi enim exercitationem iste, tempora. Architecto corporis culpa, doloremque ducimus enim illum minus nam non quas rem sed?</div>
+                <br/>
+                <div className="job-card-createAt">July 17th, 2022</div>
                 <a className="read-more"></a>
             </div>
         </div>
