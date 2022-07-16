@@ -1,8 +1,6 @@
-@import '../css/index.css';
+.job-card {
+  display: flex;
+  &-left {
 
-.job__card__location{
-  color: pink;
-}
-.location__icon{
-  color: red;
+  }
 }
