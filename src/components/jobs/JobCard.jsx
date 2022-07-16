@@ -28,7 +28,7 @@ export default function JobCard(props) {
                 <button></button>
             </div>
             <div className="job-card-right">
-                <div className="job-card-title-child"></div>
+                <div className="job-card-title-child">Software Engineer</div>
                 <div className="job-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cupiditate fugit labore numquam veritatis! Ab asperiores aut commodi dicta eius ipsa maxime, numquam, obcaecati quam rem sed velit veritatis!</div>
                 <div className="job-card-description"></div>
                 <div className="job-card-createAt"></div>

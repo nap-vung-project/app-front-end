@@ -1,6 +1,16 @@
 .job-card {
+  font-family: Verdana, sans-serif;
   display: flex;
+  width: 670px;
+  font-size: 16px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 10px 40px 0;
+  height: 290px;
   &-left {
-
+    width: 20em;
+    padding: 1em 0 1em 1em;
+  }
+  &-right {
+    width: 20em;
+    padding: 1em 0 1em 1em;
   }
 }
