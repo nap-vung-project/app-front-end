@@ -5,4 +5,8 @@
   font-weight: bold;
   color: white;
   font-style: italic;
+  transition: 0.5s ;
+  &:hover {
+    background-color: #22bbea;
+  }
 }

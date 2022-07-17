@@ -1,12 +1,13 @@
 import React from 'react';
 import {GrLocation} from 'react-icons/gr';
+import {CgArrowLongRight} from 'react-icons/cg'
 // import Proptypes from 'prop-types';
 import '../../asset/scss/JobsStyle.scss'
 // import {Link} from 'react-router-dom';
 
 
 import ApplyButton from "../button/ApplyButton";
-export default function JobCard(props)
+export default function JobCard()
 {
     return(
         <div className="job-card">
@@ -45,7 +46,7 @@ export default function JobCard(props)
                 <div className="job-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aut cupiditate debitis eligendi enim exercitationem iste, tempora. Architecto corporis culpa, doloremque ducimus enim illum minus nam non quas rem sed?</div>
                 <br/>
                 <div className="job-card-createAt">July 17th, 2022</div>
-                <a className="read-more"></a>
+                <a className="read-more">Read more<CgArrowLongRight className="read-more-arrow"/></a>
             </div>
         </div>
     )

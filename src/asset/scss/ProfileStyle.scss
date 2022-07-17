@@ -1,0 +1,85 @@
+@import '_library.scss';
+
+html{
+  font-size: 15px;
+}
+.profile-card{
+  font-family: $main-font;
+  padding: 30px;
+  width: 36rem;
+  border-radius: 2rem;
+  background-color: pink;
+  &-personal{
+    &-info {
+      display: flex;
+      border-bottom: 1px solid lightgray;
+      gap: 2rem;
+      padding-bottom: 2rem;
+    }
+    &-name {
+      margin-bottom: 1.5rem;
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    &-title {
+      color: #9DAAF2;
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    &-address {
+
+    }
+    &-image img {
+      width: 8rem;
+      height: 8rem;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+  &-extra{
+    &-info{
+      padding-top: 2rem;
+
+      & table{
+        width: 100%;
+        padding-bottom: 30px;
+        & tr td {
+          line-height: 3rem;
+        }
+        & tr td:last-child {
+          text-align: right;
+        }
+      }
+    }
+  }
+}
+
+
+.profile-content {
+  display: flex;
+  gap: 2rem;
+  &-jobs-preview {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+.jobs-applied {
+  display: flex;
+  width: 20rem;
+  height: 11rem;
+  background-color: deepskyblue;
+  &left {
+    display: flex;
+    flex-direction: column;
+  }
+  &amount {
+    display: flex;
+    & span {
+      magin: auto;
+
+    }
+  }
+}

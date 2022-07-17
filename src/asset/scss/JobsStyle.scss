@@ -1,16 +1,18 @@
 @import '_library.scss';
 
+
+.header {
+  width: 370px;
+}
+
 .job-card {
   font-family: $main-font;
   display: flex;
-  width: 670px;
   box-shadow: $box-shadow;
-  //height: 290px;
   padding: 0 30px 0 30px;
   &-left {
     width: 20rem;
     padding: 2rem 2rem 2rem 0;
-    border-right: 1px dotted lightgray;
   }
 
   &-location {
@@ -55,6 +57,8 @@
     width: 20rem;
     padding: 2rem 0 2rem 2rem;
     line-height: 1.8rem;
+    border-left: 1px dotted lightgray;
+
   }
 
   &-title-child {
@@ -74,3 +78,100 @@
     color: darkgrey;
   }
   }
+
+
+#jobs-uyen{
+  display: flex;
+}
+.u--content{
+  &-layout{
+    display: flex;
+    gap: 2rem;
+  }
+  &-jobs-card {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+.jobs-recent-campaign {
+  box-shadow: $box-shadow;
+  width: 230px;
+  height: 230px;
+  display: flex;
+  & img{
+    width: 100%;
+    margin: auto;
+  }
+}
+
+.u--banner{
+  &-layout{
+    width: 100%;
+  }
+  &-layout-image:before{
+    background-image: url("https://jobboarddirect.co.uk/wp-content/themes/jobboard/images/orange-bottom.svg");
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    height: 300px;
+    display: block;
+    content: '';
+  }
+  &-layout-image {
+    background-image: url('https://jobboarddirect.co.uk/wp-content/uploads/2021/11/5-1.png');
+
+    background-repeat: no-repeat ;
+    //width: 1000px;
+    height: 300px;
+    background-size: cover;
+
+  }
+}
+
+.content-layout{
+  display: flex;
+  gap: 2rem;
+}
+
+.job-wrapper{
+  display: flex;
+  gap: 2rem;
+}
+
+.jobs-pagination {
+  & span{
+    width: 2rem;
+    height: 2.7rem;
+    background-color: pink;
+    display: flex;
+    margin: auto;
+  }
+}
+
+.job-card-child {
+  width: 20rem;
+  padding: 2rem 2rem 0 2rem;
+  background-color: greenyellow;
+  border-radius: 2rem;
+}
+
+.read-more {
+  font-size: 1rem;
+  color: #FF8643;
+  font-weight: bold;
+  display: flex;
+  gap: 10px;
+  &:hover{
+    font-style: italic;
+    transition: 1s;
+  }
+  &-arrow {
+    display: flex;
+    margin: auto auto auto 0;
+    &:hover {
+      margin: auto auto auto 0.4rem;
+    }
+  }
+
+}
