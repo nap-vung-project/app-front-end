@@ -40,11 +40,11 @@ const FormApply = () => {
                 </div>
                 <div className="row">
                     <label >Upload Your Cover Letter</label>
-                    <input type="text" id="" placeholder="Ex:eamail@gmail.com"/>
+                    <input type="file" id="" placeholder="Ex:eamail@gmail.com"/>
                 </div>
                 <div className="row">
                     <label >Upload your CV</label>
-                    <input type="text" id="" placeholder="Ex:eamail@gmail.com"/>
+                    <input type="file" id="" placeholder="Ex:eamail@gmail.com"/>
                 </div>
                 <button type="submit" className="btn">Submit</button>
             </form>
