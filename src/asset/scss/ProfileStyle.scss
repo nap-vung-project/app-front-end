@@ -1,10 +1,12 @@
 @import '_library.scss';
 
-html{
-  font-size: 15px;
+#profile-uyen{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-family: $main-font;
 }
 .profile-card{
-  font-family: $main-font;
   padding: 30px;
   width: 36rem;
   border-radius: 2rem;
@@ -35,6 +37,7 @@ html{
       height: 8rem;
       object-fit: cover;
       border-radius: 50%;
+      border: 2px solid #22bbea;
     }
   }
   &-extra{
@@ -68,18 +71,42 @@ html{
 
 .jobs-applied {
   display: flex;
-  width: 20rem;
-  height: 11rem;
+  width: 16rem;
+  height: 4.5rem;
   background-color: deepskyblue;
-  &left {
+  border-radius: 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  &-left {
     display: flex;
     flex-direction: column;
-  }
-  &amount {
-    display: flex;
-    & span {
-      magin: auto;
-
+    gap: 1rem;
+    & p:first-child {
+      font-size: 1.3rem;
+    }
+    & p:last-child {
+      color: #9DAAF2;
     }
   }
+  &-amount span{
+    font-size: 3rem;
+    color: #EE854A;
+  }
+}
+
+//.jobs-applied-left p {
+//  font-size: 1.2rem;
+//}
+
+.profile-intro {
+  width: 36rem;
+  height: 1rem;
+  background-color: fuchsia;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  gap: 1rem;
 }

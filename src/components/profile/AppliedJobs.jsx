@@ -7,8 +7,8 @@ export default function AppliedJobs() {
                 <p>Applied Jobs</p>
                 <p>3 months</p>
             </div>
-            <div className="job-applied-amount">
-                <span>30</span>
+            <div className="jobs-applied-amount">
+               <span>30</span>
             </div>
         </div>
     )

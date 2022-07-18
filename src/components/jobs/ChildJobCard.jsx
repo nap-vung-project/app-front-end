@@ -23,7 +23,7 @@ export default function ChildJobCard() {
                         <td>Company</td>
                         <td>O2R2</td>
                     </tr>
-                    <tr>
+                    <tr className="job-card-extra-info">
                         <td>July 18th, 2022</td>
                         <td><a className="read-more">Read more<CgArrowLongRight className="read-more-arrow"/></a></td>
                     </tr>
