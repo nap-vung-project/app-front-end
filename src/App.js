@@ -1,10 +1,12 @@
-import React from 'react';
-import Jobs from '../src/pages/Jobs'
+import Homepage from "./pages/Homepage";
+import Jobs from "./pages/Jobs";
+
 
 function App() {
   return (
     <>
-      <Jobs/>
+      <Homepage/>
+        {/*<Jobs/>*/}
     </>
   );
 }
