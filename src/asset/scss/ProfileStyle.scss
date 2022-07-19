@@ -1,0 +1,112 @@
+@import '_library.scss';
+
+#profile-uyen{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-family: $main-font;
+}
+.profile-card{
+  padding: 30px;
+  width: 36rem;
+  border-radius: 2rem;
+  background-color: pink;
+  &-personal{
+    &-info {
+      display: flex;
+      border-bottom: 1px solid lightgray;
+      gap: 2rem;
+      padding-bottom: 2rem;
+    }
+    &-name {
+      margin-bottom: 1.5rem;
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    &-title {
+      color: #9DAAF2;
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    &-address {
+
+    }
+    &-image img {
+      width: 8rem;
+      height: 8rem;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 2px solid #22bbea;
+    }
+  }
+  &-extra{
+    &-info{
+      padding-top: 2rem;
+
+      & table{
+        width: 100%;
+        padding-bottom: 30px;
+        & tr td {
+          line-height: 3rem;
+        }
+        & tr td:last-child {
+          text-align: right;
+        }
+      }
+    }
+  }
+}
+
+
+.profile-content {
+  display: flex;
+  gap: 2rem;
+  &-jobs-preview {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+.jobs-applied {
+  display: flex;
+  width: 16rem;
+  height: 4.5rem;
+  background-color: deepskyblue;
+  border-radius: 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  &-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    & p:first-child {
+      font-size: 1.3rem;
+    }
+    & p:last-child {
+      color: #9DAAF2;
+    }
+  }
+  &-amount span{
+    font-size: 3rem;
+    color: #EE854A;
+  }
+}
+
+//.jobs-applied-left p {
+//  font-size: 1.2rem;
+//}
+
+.profile-intro {
+  width: 36rem;
+  height: 1rem;
+  background-color: fuchsia;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  gap: 1rem;
+}

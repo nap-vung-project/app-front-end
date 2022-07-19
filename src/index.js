@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Login from './components/login';
-import Signup from './components/signup';
+import './asset/scss/_theater.scss';
+
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Signup />
-    {/* <Login/> */}
+    <App />
   </React.StrictMode>
 );
 
