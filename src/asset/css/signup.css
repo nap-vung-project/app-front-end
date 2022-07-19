@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap');
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  background: #ededed;
+}
+.Overall-container{
+    display: flex;
+    justify-content: center;
+    margin-top:5% ;
+}
+
+@media screen and (max-width: 1285.60px) {
+  .welcoming h2{
+    font-size: 18px;
+  }
+  .form h3 {
+  font-size: 28px;
+ 
+}
+
+}
+
+@media screen and (max-width: 1238px) {
+.form h3 {
+  width: 125%;
+  font-size: 26px;
+}
+.Recomend-signup {
+  font-size: 12px;
+}
+.welcoming h2{
+  font-size: 20px;
+}
+.slide h1 {
+
+  margin-left: 9%;
+}
+.container .box .role p {
+margin-left: 9%;
+}
+.waytosigup p{
+  display: none;
+}
+}
+.Left-login-side{
+    z-index: 99px;
+    width: 30%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+   box-shadow: 5px 5px 5px 5px lightgray;
+   
+}
+
+.Right-login-side{
+    width: 30%;
+}
+
+@media screen and (max-width: 1129px) {
+  .Left-login-side{
+  width: 40%;
+}
+.Overall-container{
+
+
+}
+.Right-login-side {
+  width: 40%;
+
+}
+
+}
+@media screen and (max-width: 860px) {
+.Left-login-side{
+  display: none;
+  
+}
+.Right-login-side{
+  width: 50%;
+  margin-top:10%;
+
+}
+.cont{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+}
+@media screen and (max-width: 666px) {
+
+  .Right-login-side{
+    width: 60%;
+    margin-top:10%;
+  }
+}
+@media screen and (max-width: 753px) {
+
+.Right-login-side{
+
+  margin-top: 0%;
+}
+}
+@media screen and (max-width: 597px) {
+
+  .Right-login-side{
+    margin-left: 0%;
+    width: 70%;
+   
+  }
+  }
+  @media screen and (max-width: 486px) {
+
+    .Right-login-side{
+      margin-left: 0%;
+      width: 0%;
+  
+    }
+    }
+.Title-page h2{
+    color:#086DF5 ;
+    justify-content: center;
+}
+.Title-page {
+  text-align: center;
+}
+
+input, button {
+    border: none;
+    outline: none;
+    background: none;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.cont {
+  box-shadow: 5px 5px 5px 6px lightgrey;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: #fff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.form {
+    position: relative;
+    padding: 50px 30px 0;
+}
+.form h3 {
+   color:#086DF5 ;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form p {
+   color:lightgray ;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cont.s--signup  {
+    transform: translate3d(-640px, 0, 0);
+}
+button {
+    display: block;
+    margin: 0 auto;
+    width: 260px;
+    height: 36px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+h2 {
+    width: 100%;
+    font-size: 26px;
+    text-align: center;
+  
+}
+label {
+    display: block;
+    width: 260px;
+    margin: 15px auto 0;
+    text-align: center;
+}
+label span {
+    font-size: 12px;
+    color: #cfcfcf;
+    text-transform: uppercase;
+}
+input {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+.forgot-pass {
+    margin-top: 35px;
+    text-align: center;
+    font-size: 12px;
+    color: #cfcfcf;
+    cursor: pointer;
+}
+.submit {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background: #086DF5;
+    text-transform: uppercase;
+}
+.fb-btn {
+    border: 2px solid #d3dae9;
+    color: #8fa1c7;
+}
+.fb-btn span {
+    font-weight: bold;
+    color: #455a81;
+}
+.Title-sologan{
+    display: flex;
+    justify-content: center;
+}
+.Ourname-company{
+    margin:  20px 2%;
+    font-size: 30px;
+    margin-top: -2%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Recomend-signup {
+    display: flex;
+    margin-top: 6%;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-right: 5%;
+  }
+  .Offer-signup {
+    display: flex;
+}
+.waytosigup p{
+    color: lightgray;
+    cursor: pointer;
+    
+}
+.waytosigup {
+    margin: 0 5%;
+    
+}
+.Chanel-sign h3{
+    color: #086DF5;
+    font-size: 14px;
+}
+.Chanel-sign {
+    cursor: pointer;
+  margin: 1% 4%;
+}
+.slider {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .slide {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation: fade 15s infinite;
+  }
+  
+  .slide:nth-child(1) {
+    background: url('https://i.pinimg.com/564x/b2/d1/73/b2d173bf629d0c351018336c3c8747eb.jpg') no-repeat;
+    
+  }
+  .slide:nth-child(2) {
+    background: url('https://cdn.pixabay.com/photo/2017/10/24/10/30/business-2884023_960_720.jpg') no-repeat;
+    animation-delay: 5s;
+  }
+  .slide:nth-child(3) {
+   
+    background: url('https://cdn.pixabay.com/photo/2017/05/04/16/37/meeting-2284501_960_720.jpg"')  no-repeat;
+    animation-delay: 10s;
+ 
+   
+  }
+  .slide:nth-child(4) {
+    background: url('https://i.pinimg.com/564x/2a/68/75/2a6875df69edb2a7a2731ce62e29d64d.jpg') no-repeat;
+    animation-delay: 15s;
+    
+  }
+  
+  @keyframes fade {
+    25% { opacity: 1; }
+    50% { opacity:1; }
+    75% { opacity: 1; }
+    100% { opacity: 1; }
+  }
+
+  
+
+  .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+  }
+  .container .box {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+ .container .box .title {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 50px;
+  }
+  .Left-login-side.slide.container .box .title h1 {
+    font-family: 'Poppins';
+    color: #ededed;
+    font-size: 32px;
+   
+    -webkit-animation: mainFadeIn 2s forwards;
+    -o-animation: mainFadeIn 2s forwards;
+    animation: mainFadeIn 2s forwards;
+    animation-delay: 1.6s;
+    opacity: 0;
+    display: flex;
+    align-items: baseline;
+    position: relative;
+   
+  }
+ .slide h1{
+  font-size: 40px;
+  font-family: 'Kanit', sans-serif;
+
+ }
+ .container .box .role {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin-top: -10px;
+    margin: 3%;
+  }
+  .container .box  {
+    top:-39%;
+    left: -15%;
+  }
+ .container .box .role .block {
+    width: 0%;
+    
+    height: inherit;
+    background: #ededed;
+    position: absolute;
+    animation: secBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+    animation-delay: 2s;
+    display: flex;
+  }
+  .container .box .role p {
+    animation: secFadeIn 2s forwards;
+    animation-delay: 3.2s;
+    opacity: 0;
+    font-weight: 400;
+    font-family: 'Lato';
+    color: #ffffff;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  @keyframes mainBlock {
+    0% {
+      width: 0%;
+      left: 0;
+    }
+    50% {
+      width: 100%;
+      left: 0;
+    }
+    100% {
+      width: 0;
+      left: 100%;
+    }
+  }
+  @keyframes secBlock {
+    0% {
+      width: 0%;
+      left: 0;
+    }
+    50% {
+      width: 100%;
+      left: 0;
+    }
+    100% {
+      width: 0;
+      left: 100%;
+    }
+  }
+  @keyframes mainFadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes secFadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0.5;
+    }
+  }
+  
