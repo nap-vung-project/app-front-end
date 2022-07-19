@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import {Pagination, PaginationItem} from '@mui/material';
 
 // import banner-jobs from'../asset/images/banner-jobs.png';
 
@@ -28,9 +27,9 @@ export default function Jobs()
                         <JobCard/>
                         <JobCard/>
                         <JobCard/>
-                        <Pagination
-                            count={30} color="primary"
-                            />
+                        {/*<Pagination*/}
+                        {/*    count={30} color="primary"*/}
+                        {/*    />*/}
                     </div>
                     <div className="u--left-side">
                         <RecentCampaign/>
