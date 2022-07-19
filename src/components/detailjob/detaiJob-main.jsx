@@ -1,4 +1,5 @@
 import React from "react";
+import {BsStopwatch} from 'react-icons/bs';
 function DetaiMainJob() {
   return (
     <>
@@ -13,17 +14,15 @@ function DetaiMainJob() {
               <div className="infor_pa">
                 <p>POSITIVE THINKING COMPANY</p>
                 <p>Địa Điểm Làm Việc: Hồ Chí Minh | Hà Nội</p>
-                <p>
-                  <i className="fa-solid fa-timer" />
-                  Application deadline: 31/07/2022
+                <p><BsStopwatch style={{ fontSize: '18px', }}/> Application deadline: 31/07/2022
                 </p>
               </div>
               <div className="infor_btn">
-                <button className="l_btn" type="submit">
+                <button className="l_btn apply" type="submit">
                   Apply
                 </button>
                 <br />
-                <button className="l_btn" type="submit">
+                <button className="l_btn save" type="submit">
                   Save news
                 </button>
               </div>

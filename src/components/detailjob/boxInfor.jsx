@@ -1,4 +1,5 @@
 import React from "react";
+import { BsGeoAlt } from 'react-icons/bs';
 function BoxInfor() {
   return (
       <div className="boxdetaill__main_content">
@@ -30,10 +31,10 @@ function BoxInfor() {
             and API/BE testing
           </li>
         </ul>
-        <h3>WORK LOCATION</h3>
+        <h3> WORK LOCATION</h3>
         <ul className="benefit">
-          <li>In-depth knowledge sharing sessions</li>
-          <li>Flexible in-office and remote work arrangements</li>
+          <li><BsGeoAlt/> In-depth knowledge sharing sessions</li>
+          <li><BsGeoAlt/> Flexible in-office and remote work arrangements</li>
         </ul>
       </div>
   );
