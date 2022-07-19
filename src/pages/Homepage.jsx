@@ -1,6 +1,6 @@
 import React from 'react';
 import HeaderNavigation from '../components/Header/HeaderNavigation';
-import '../asset/scss/Homepage.scss';
+// import '../asset/scss/Homepage.scss';
 import Slider from '../components/Slider/Slider';
 import Search from '../components/Search/Search';
 import TopEmployer from '../components/TopEmployers/TopEmployers';

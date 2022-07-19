@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+// import './asset/scss/_theater.scss';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

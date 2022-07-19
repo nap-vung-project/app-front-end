@@ -1,9 +1,9 @@
 @import '_library.scss';
 
 
-.header {
-  width: 370px;
-}
+//.header {
+//  width: 370px;
+//}
 
 .job-card {
   font-family: $main-font;
@@ -167,13 +167,15 @@
   font-weight: bold;
   display: flex;
   gap: 10px;
-  &:hover{
-    font-style: italic;
-    transition: 1s;
+
+  &:hover &-arrow{
+    padding-left: 10px;
   }
   &-arrow {
     display: flex;
     margin: auto auto auto 0;
+
+    transition: 0.3s;
     &:hover {
       margin: auto auto auto 0.4rem;
     }
