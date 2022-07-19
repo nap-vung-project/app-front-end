@@ -1,10 +1,8 @@
-import FormApply from "./pages/FormApply";
 
 
 function App() {
   return (
     <>
-    <FormApply/>
     </>
   );
 }
