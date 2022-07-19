@@ -1,11 +1,10 @@
 import React from 'react';
-
-import DetailJob from './pages/detaiJob';
+import Jobs from '../src/pages/Jobs'
 
 function App() {
   return (
     <>
-      <DetailJob/>
+      <Jobs/>
     </>
   );
 }

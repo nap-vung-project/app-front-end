@@ -1,6 +1,5 @@
 import React from 'react';
 import {GrLocation} from 'react-icons/gr';
-
 // import Proptypes from 'prop-types';
 import '../../asset/scss/JobsStyle.scss'
 // import {Link} from 'react-router-dom';
