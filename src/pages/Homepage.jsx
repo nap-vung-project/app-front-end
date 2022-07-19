@@ -18,10 +18,10 @@ export default function Homepage() {
             <div className="content">
                     <Slider></Slider>
                     <Search></Search>
-                    <TopEmployer></TopEmployer>  
-                    <BestJob></BestJob>     
-                    <Partner></Partner>     
-                    <ListImg></ListImg>    
+                    <TopEmployer></TopEmployer>
+                    <BestJob></BestJob>
+                    <Partner></Partner>
+                    <ListImg></ListImg>
                 <div className='footer'>
                     <Footer></Footer>
                 </div>

@@ -1,10 +1,11 @@
-import Homepage from "./pages/Homepage";
+import FormRecruit from "./pages/FormRecruit";
+// import Homepage from "./pages/Homepage";
 
 
 function App() {
   return (
     <>
-      <Homepage/>
+      <FormRecruit/>
     </>
   );
 }
