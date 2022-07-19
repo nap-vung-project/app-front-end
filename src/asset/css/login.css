@@ -1,0 +1,210 @@
+
+body {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    background: #ededed;
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.Overall-container{
+    display: flex;
+    justify-content: center;
+    margin-top:5% ;
+   
+}
+.Left-login-side{
+    z-index: 99px;
+    border: 1px white double;
+    /* background-color: #086DF5; */
+    width: 40%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 5px 5px 5px 6px lightgrey;
+}
+.Words-gretting{
+    color: white;
+    
+}
+.Words-gretting h3{
+  padding:0 5%;
+  font-size: 30px;
+  /* margin-top: 30%; */
+}
+.Words-gretting p{
+    margin-top: 10%;
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Title-website h3{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    padding: 5%;
+}
+.Right-login-side{
+
+    width: 40%;
+}
+.Title-page h2{
+    color:#086DF5 ;
+    justify-content: center;
+}
+.Title-page {
+  text-align: center;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+input, button {
+    border: none;
+    outline: none;
+    background: none;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.cont {
+    overflow: hidden;
+    position: relative;
+    width: 90%;
+    height: 550px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: #fff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 5px 5px lightgrey;
+}
+.form {
+    position: relative;
+    padding: 50px 30px 0;
+}
+.cont.s--signup  {
+    transform: translate3d(-640px, 0, 0);
+}
+button {
+    display: block;
+    margin: 0 auto;
+    width: 260px;
+    height: 36px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+h2 {
+    width: 100%;
+    font-size: 26px;
+    text-align: center;
+}
+label {
+    display: block;
+    width: 260px;
+    margin: 25px auto 0;
+    text-align: center;
+}
+label span {
+    font-size: 12px;
+    color: #cfcfcf;
+    text-transform: uppercase;
+}
+input {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+.forgot-pass {
+    margin-top: 35px;
+    text-align: center;
+    font-size: 12px;
+    color: #cfcfcf;
+    cursor: pointer;
+}
+.submit {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background: #086DF5;
+    text-transform: uppercase;
+}
+.fb-btn {
+    border: 2px solid #d3dae9;
+    color: #8fa1c7;
+    margin-bottom: 20%;
+}
+.fb-btn span {
+    font-weight: bold;
+    color: #455a81;
+}
+
+@media screen and (max-width: 860px) {
+    .cont{
+      width: 110%;
+    }
+    
+  }
+  @media screen and (max-width: 955px) {
+ 
+    .Words-gretting {
+        display: none;
+     }
+     .Title-website h3{
+         margin-top: 50%;
+         font-size: 50px;
+     }
+  }
+  @media screen and (max-width: 753px) {
+ .Left-login-side{
+    display: none;
+   
+ }
+ .cont{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 130%;
+    margin-top: 20%;
+ }
+ 
+  }
+  @media screen and (max-width: 598px) {
+    .cont{
+       border-top-left-radius: 20px;
+       border-bottom-left-radius: 20px;
+       width: 160%;
+       margin-top: 20%;
+       justify-content: center;
+       margin-left: 0%;
+       /* background-color: red; */
+    }
+    .Left-login-side{
+        display: none;
+       
+     }
+    
+     }
+     @media screen and (max-width: 486px) {
+        .cont{
+      
+           width: 190%;
+           margin-top: 20%;
+           margin-left: 0%;
+           /* background-color: red; */
+        }
+        .Left-login-side{
+            display: none;
+           
+         }
+        
+         }
+
