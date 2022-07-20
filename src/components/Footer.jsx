@@ -33,7 +33,7 @@ export default function Footer() {
         )
     }
     return (
-        <div>
+        <div className='footer'>
             <div className="footerTop">
                 <FooterLeft></FooterLeft>
                 <FooterRight></FooterRight>
